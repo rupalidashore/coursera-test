@@ -1,0 +1,62 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family:  'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img{
+    background: url('https://restaurantimages.menuism.com/c7fP5Gql4r3PiZaby-Fddz-logo-inchins-bamboo-garden-238x148.jpg') no-repeat;
+    width: 238px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    border: 1px solid black;
+    float:left;
+    
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+
+ .navbar-brand h1{ /*   restauant name*/
+    font-family: 'Lora', serif;
+    color: #557c55;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+
+}
+
+.navbar-brand a{
+    text-decoration:none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+text-decoration:none;
+}
+.navbar-brand p{ /* kosher cert */
+
+    color: rgba(14, 15, 13, 0.884);
+    text-decoration: uppercase ;
+    font-size: .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span{ 
+    vertical-align: middle;
+}
+
+    
+ 
+
+
+
