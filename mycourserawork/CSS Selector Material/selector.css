@@ -1,0 +1,151 @@
+/* universal selector 
+* {
+    background-color: whitesmoke;
+}*/
+
+/* ELEMENT SLECTOR EXAMPLES */
+body{
+    background-color: #f1faee;
+}
+button{
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+a{
+    text-decoration: none;
+}
+
+/* SELECTOR LIST EXAMPLE*/
+h1,h2{
+    color: #1d3557;
+}
+
+/*ID SELECTOR*/
+#signup{
+background-color:#e9c46a ;
+color:#6b705c ;
+}
+
+/*ELEMENT SELECTOR*/
+div{
+    color:#e76f51 ;
+}
+input{
+    height: 30px;
+    font-size: 25px;
+}
+
+/*CLASS SELECTOR*/
+.practice {
+    text-align: center;
+    font-size: large;
+    background-color: white;
+}
+.test {
+    font-size: larger;
+    background: olive;
+}
+
+.practice button{
+    background-color: #a8dadc;
+
+}
+
+/*DESCENDANT SELECTOR*/
+li a{
+    color: coral;
+}
+
+h3 span a{
+    color:cyan
+}
+h3 span{
+    font-size: small;
+}
+.new a{
+    background-color: darkorchid;
+}
+.practice h3{
+    text-align: left;
+}
+
+/*ELEMENT SELECTOR AND MARKUP*/
+footer{
+    font-size: small;
+}
+
+/*ADJACENT SELECTOR*/
+hr+h2{
+    text-align:center;
+}
+
+input+button {
+    background-color: deeppink;
+}
+div+button{
+    font-size: small;
+}
+
+/*DIRECT CHILD*/
+footer >a{
+    font-size: large;
+}
+
+/*ATRIBUTE SELECTOR*/
+input[type="text"]{
+    width: 100px;
+    color:gold;
+    background-color: indianred;
+}
+input[type="password"]{
+    color: indianred;
+    width: 300px;
+    background-color: gold;
+}
+
+a[href*="licence"]{
+    color:blue;
+    background-color: chartreuse;
+}
+/*PSEUDO CLASSES*/
+.practice button:hover{
+    background-color: chartreuse;
+    color: cornsilk;
+    text-decoration: overline;
+}
+
+.button button:hover{
+    background-color: pink;
+}
+
+h1:hover{
+    background-color: gold;
+    color: honeydew;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+button:active{
+    background-color: mediumaquamarine;
+}
+
+.button:nth-of-type(2n){
+    font-weight: lighter;
+}
+/*PSEUDO ELEMENTS*/
+h2::first-letter{
+    font-size:50px;
+}
+p::first-line{
+    font-weight: 700;
+}
+p::selection{
+    background-color: yellow;
+}
+button{
+    background-color: magenta  !important;
+}
+
+
+

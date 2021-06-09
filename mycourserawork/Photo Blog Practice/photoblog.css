@@ -1,0 +1,53 @@
+img{
+    width: 30%;
+    margin: calc(10%/7);
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.2s 0.1s;
+}
+
+nav{
+    text-transform:uppercase;
+    padding: 7px;
+    font-family: 'Lora', serif;
+    font-size: 0.9em;
+    display: inline;
+}
+
+img:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0.5em 2em -0.4em goldenrod;
+
+}
+
+
+/*ABOUT ME PAGE CSS CODING - CAN IGNORE BELOW THIS*/
+
+a{
+    margin-left: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
+section{
+    font-size: 25px;
+}
+
+li{
+    color: cadetblue;
+}
+
+#title{
+    color: cadetblue;
+}
+
+#image{
+    width: 30%;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid #40403b;
+    transition: 0.2s 0.1s;
+    display: inline;
+}
